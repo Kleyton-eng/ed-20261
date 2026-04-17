@@ -2,26 +2,26 @@
      void calcular_notas(int valor){
         int notas200, notas100, notas50, notas20, notas10, notas5, notas2;
 
-        notas200= valor /200
-        valor %= 200
+        notas200= valor /200;
+        valor %= 200;
 
-        notas200= valor /100
-        valor %= 100
+        notas200= valor /100;
+        valor %= 100;
 
-        notas200= valor /50
-        valor %= 50
+        notas200= valor /50;
+        valor %= 50;
 
-        notas200= valor /20
-        valor %= 20
+        notas200= valor /20;
+        valor %= 20;
 
-        notas200= valor /10
-        valor %= 10
+        notas200= valor /10;
+        valor %= 10;
 
-        notas200= valor /5
-        valor %= 5
+        notas200= valor /5;
+        valor %= 5;
 
-        notas200= valor /2
-        valor %= 2
+        notas200= valor /2;
+        valor %= 2;
 
         printf("\nQuantidade de notas:\n");
         printf("200: %d\n", notas200);
